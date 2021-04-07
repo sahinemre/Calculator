@@ -22,7 +22,7 @@ def buttonAdd():
     global f_num
     global math
     math="Addition"
-    f_num=int(first_number)
+    f_num=float(first_number)
     e.delete(0,tki.END)
 
 #button multiplication
@@ -31,7 +31,7 @@ def buttonMultiply():
     global f_num
     global math
     math="Multiply"
-    f_num=int(first_number)
+    f_num=float(first_number)
     e.delete(0,tki.END)
 
 #button divide
@@ -40,7 +40,7 @@ def buttonDivide():
     global f_num
     global math
     math="Divide"
-    f_num=int(first_number)
+    f_num=float(first_number)
     e.delete(0,tki.END)
 
 #button substract
@@ -49,7 +49,7 @@ def buttonSubtract():
     global f_num
     global math
     math="Substract"
-    f_num=int(first_number)
+    f_num=float(first_number)
     e.delete(0,tki.END)
 
 #button equal
